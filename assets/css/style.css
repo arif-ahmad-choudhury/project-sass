@@ -86,6 +86,33 @@ ul {
   border-color: #333;
 }
 
+/* section title css*/
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title h4 {
+  text-transform: capitalize;
+  font-size: 45px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+}
+
+.section-title:before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: #ff7720;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #333;
+}
+
 /*margin and padding*/
 .pt-10 {
   padding-top: 10px;
