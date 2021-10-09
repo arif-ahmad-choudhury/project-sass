@@ -25,6 +25,24 @@ img{
 ul{
     list-style:none;
 }
+/* background css*/
+.bg{
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    &:before{
+        content:"";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: o;
+        top: 0;
+        background-color: $black;
+        opacity: .75;
+        z-index:-1;
+    }
+}
 /*margin and padding*/
 
 @for $i from 1 through 10{
