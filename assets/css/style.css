@@ -114,6 +114,11 @@ ul {
           transform: translateX(-50%);
 }
 
+.section-title p {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 /*margin and padding*/
 .pt-10 {
   padding-top: 10px;
