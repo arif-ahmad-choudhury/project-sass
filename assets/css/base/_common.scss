@@ -43,6 +43,30 @@ ul{
         z-index:-1;
     }
 }
+/* button css */
+.btn{
+    padding: 10px 40px;
+    text-transform:capitalize;
+    font-size:18px;
+    display: inline-block;
+    border-radius:3px;
+    color: $white;
+    &.box-btn{
+        background-color: $primary_color;
+        transition: .3s;
+        &:hover{
+            background-color:$black;
+        }
+    }
+    &.border-btn{
+        border: 2px solid $primary_color;
+        padding: 8px 40px;
+        transition: .3s;
+        &:hover{
+            border-color:$black;
+        }
+    }
+}
 /*margin and padding*/
 
 @for $i from 1 through 10{

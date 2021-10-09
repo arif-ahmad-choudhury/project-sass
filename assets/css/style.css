@@ -55,6 +55,37 @@ ul {
   z-index: -1;
 }
 
+/* button css */
+.btn {
+  padding: 10px 40px;
+  text-transform: capitalize;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.btn.box-btn {
+  background-color: #ff7720;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn.box-btn:hover {
+  background-color: #333;
+}
+
+.btn.border-btn {
+  border: 2px solid #ff7720;
+  padding: 8px 40px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn.border-btn:hover {
+  border-color: #333;
+}
+
 /*margin and padding*/
 .pt-10 {
   padding-top: 10px;
@@ -332,5 +363,9 @@ p {
 .banner-content p {
   max-width: 500px;
   margin: 30px auto;
+}
+
+.banner-content a {
+  margin: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */
