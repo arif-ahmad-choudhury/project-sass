@@ -504,4 +504,18 @@ p {
   font-size: 22px;
   text-transform: capitalize;
 }
+
+.cta-area {
+  color: #fff;
+}
+
+.cta-area h4 {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.cta-area p {
+  margin: 30px 0;
+}
 /*# sourceMappingURL=style.css.map */
