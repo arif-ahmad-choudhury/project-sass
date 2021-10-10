@@ -630,4 +630,14 @@ p {
   padding: 3px;
   height: 270px;
 }
+
+.footer-area {
+  background-color: #333;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-area p {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
