@@ -518,4 +518,34 @@ p {
 .cta-area p {
   margin: 30px 0;
 }
+
+.single-blog {
+  float: left;
+  width: 380px;
+  margin-right: 30px;
+  border: 1px solid #ddd;
+}
+
+.single-blog:last-child {
+  margin-right: 0;
+}
+
+.single-blog .blog-img {
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+}
+
+.single-blog .blog-content {
+  padding: 20px;
+}
+
+.single-blog .blog-content h4 {
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.single-blog .blog-content p {
+  margin: 20px 0;
+}
 /*# sourceMappingURL=style.css.map */
